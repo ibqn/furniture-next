@@ -10,8 +10,6 @@ import {
 } from 'react-icons/io'
 
 // import images
-import Features1Img from '/public/assets/img/features-1.png'
-import Features2Img from '/public/assets/img/features-2.png'
 import ChairImg from '/public/assets/img/chair.png'
 import BedImg from '/public/assets/img/bed.png'
 import CupboardImg from '/public/assets/img/cupboard.png'
@@ -78,7 +76,7 @@ export const stats = [
 ]
 
 export const features = {
-  image: <Features1Img />,
+  image: '/assets/img/features-1.png',
   title: 'We Create your home more aesthetic',
   subtitle:
     'Furniture power is a software as services for multipurpose business management system',
@@ -98,10 +96,10 @@ export const features = {
     },
   ],
   feature2: {
-    image: <Features2Img />,
+    image: '/assets/img/features-2.png',
     title: 'The Best Furniture Manufacturer of your choice',
     subtitle:
-      'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+      'Furniture power is a software as services for multipurpose business management system, especially for them who are running two or more business exploree the future Furniture power is a software as services.',
   },
 }
 

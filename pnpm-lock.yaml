@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/saira': ^4.5.9
   autoprefixer: ^10.4.8
   clsx: ^1.2.1
   eslint: 8.22.0
@@ -14,6 +15,7 @@ specifiers:
   tailwindcss: ^3.1.8
 
 dependencies:
+  '@fontsource/saira': 4.5.9
   clsx: 1.2.1
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -61,6 +63,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/saira/4.5.9:
+    resolution: {integrity: sha512-g7368l4l//gooz8YWWdO3DdEaI+/uxhC2j03xqwq8kinldqwHfqo0pgBGu4W27IiIWrG32ATmTr4fUscVo9Iyw==}
+    dev: false
 
   /@humanwhocodes/config-array/0.10.4:
     resolution: {integrity: sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==}

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/saira": "^4.5.9",
     "clsx": "^1.2.1",
     "next": "12.2.5",
     "react": "18.2.0",
