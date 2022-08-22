@@ -10,10 +10,12 @@ import {
 } from 'react-icons/io'
 
 // import images
-import ChairImg from '/public/assets/img/chair.png'
-import BedImg from '/public/assets/img/bed.png'
-import CupboardImg from '/public/assets/img/cupboard.png'
-import LightingImg from '/public/assets/img/lighting.png'
+import Features1Img from '../public/assets/img/features-1.png'
+import Features2Img from '../public/assets/img/features-2.png'
+import ChairImg from '../public/assets/img/chair.png'
+import BedImg from '../public/assets/img/bed.png'
+import CupboardImg from '../public/assets/img/cupboard.png'
+import LightingImg from '../public/assets/img/lighting.png'
 import Product1Img from '/public/assets/img/products/product-1.png'
 import Product2Img from '/public/assets/img/products/product-2.png'
 import Product3Img from '/public/assets/img/products/product-3.png'
@@ -76,7 +78,7 @@ export const stats = [
 ]
 
 export const features = {
-  image: '/assets/img/features-1.png',
+  image: Features1Img,
   title: 'We Create your home more aesthetic',
   subtitle:
     'Furniture power is a software as services for multipurpose business management system',
@@ -96,7 +98,7 @@ export const features = {
     },
   ],
   feature2: {
-    image: '/assets/img/features-2.png',
+    image: Features1Img,
     title: 'The Best Furniture Manufacturer of your choice',
     subtitle:
       'Furniture power is a software as services for multipurpose business management system, especially for them who are running two or more business exploree the future Furniture power is a software as services.',
@@ -111,19 +113,19 @@ export const newInStore = {
   products: [
     {
       name: 'chair',
-      image: <ChairImg />,
+      image: ChairImg,
     },
     {
       name: 'bed',
-      image: <BedImg />,
+      image: BedImg,
     },
     {
       name: 'cupboard',
-      image: <CupboardImg />,
+      image: CupboardImg,
     },
     {
       name: 'lighting',
-      image: <LightingImg />,
+      image: LightingImg,
     },
   ],
 }
