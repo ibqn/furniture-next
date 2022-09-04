@@ -2,7 +2,7 @@ import { features } from 'data'
 import Image from 'next/image'
 
 const Features = () => {
-  const { title, subtitle, image, buttonText, items } = features
+  const { title, subtitle, image, items } = features
   return (
     <section className="section">
       <div className="container mx-auto">
@@ -18,9 +18,9 @@ const Features = () => {
             />
           </div>
           <div className="flex-1 flex flex-col justify-end">
-            <h2 className="title">{title}</h2>
+            <h2 className="title lg:mb-[35px]">{title}</h2>
             <p className="subtitle">{subtitle}</p>
-            <div>
+            <div className="sm:mb-[50px]">
               {items.map(({ title, subtitle, icon }, index) => (
                 <div className="flex mb-6 lg:last:mb-0" key={index}>
                   <div className="text-2xl mr-4 lg:text-3xl">{icon}</div>

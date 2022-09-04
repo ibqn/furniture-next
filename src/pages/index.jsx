@@ -1,6 +1,8 @@
 import Features from 'components/features'
+import FeaturesSecond from 'components/features-second'
 import Hero from 'components/hero'
 import NewInStore from 'components/new-in-store'
+import Products from 'components/products'
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <Features />
       <NewInStore />
+      <FeaturesSecond />
+      <Products />
     </div>
   )
 }

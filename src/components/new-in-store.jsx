@@ -13,7 +13,7 @@ const NewInStore = () => {
             <h2 className="title max-w-[245px] lg:mt-[30px] lg:mb-[90px]">
               {title}
             </h2>
-            <p className="mx-w-[245px] lg:mb-12">{subtitle}</p>
+            <p className="max-w-[245px] lg:mb-12">{subtitle}</p>
             <div className="hidden lg:flex items-center">
               <Link href="#">
                 <div className="flex flex-row cursor-pointer">
