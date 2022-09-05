@@ -289,27 +289,34 @@ export const products = {
 export const testimonial = {
   title: 'What people are saying about us',
   image: TestimonialImg,
-  persons: [
+  people: [
     {
       avatar: Avatar1Img,
       name: 'Josh Smith',
-      occupation: 'Manager of The New York Times',
+      position: 'Manager of The New York Times',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“They are have a perfect touch for make something so professional, interest and useful for a lot of people.”',
     },
     {
       avatar: Avatar2Img,
       name: 'Brandi Johns',
-      occupation: 'Manager of The New York Times',
+      position: 'Manager of The New York Times',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“They are have a perfect touch for make something so professional, interest and useful for a lot of people.”',
     },
     {
       avatar: Avatar3Img,
       name: 'Paula Pfeffer',
-      occupation: 'Manager of The New York Times',
+      position: 'Manager of The New York Times',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“They are have a perfect touch for make something so professional, interest and useful for a lot of people.”',
+    },
+    {
+      avatar: Avatar4Img,
+      name: 'John Low',
+      position: 'Manager of The New York Times',
+      message:
+        '“They are have a perfect touch for make something so professional, interest and useful for a lot of people.”',
     },
   ],
 }
