@@ -6,9 +6,9 @@
 .productSlider [class*=swiper-button-next] {
   background: #23262f;
   box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1);
-  top: 97%;
-  width: 50px;
-  height: 50px;
+  top: calc(100% - 26px);
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   z-index: 20;
 }
@@ -32,10 +32,19 @@
 .productSlider [class*=swiper-button-next]:after,
 .testimonialSlider [class*=swiper-button-prev]:after,
 .testimonialSlider [class*=swiper-button-next]:after {
-  font-size: 16px;
+  font-size: 10px;
+  font-weight: bold;
   color: white;
 }
 
 .productSlider [class*=swiper-pagination] {
   bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .productSlider [class*=swiper-button-prev],
+  .productSlider [class*=swiper-button-next],
+  .productSlider [class*=swiper-pagination] {
+    display: none;
+  }
 }
