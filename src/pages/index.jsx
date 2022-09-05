@@ -2,6 +2,7 @@ import Features from 'components/features'
 import FeaturesSecond from 'components/features-second'
 import Hero from 'components/hero'
 import NewInStore from 'components/new-in-store'
+import Newsletter from 'components/newsletter'
 import Products from 'components/products'
 import Testimonial from 'components/testimonial'
 
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturesSecond />
       <Products />
       <Testimonial />
+      <Newsletter />
     </div>
   )
 }
