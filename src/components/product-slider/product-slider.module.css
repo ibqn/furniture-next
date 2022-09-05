@@ -14,9 +14,7 @@
 }
 
 .productSlider [class*=swiper-button-prev]:hover,
-.productSlider [class*=swiper-button-next]:hover,
-.testimonialSlider [class*=swiper-button-prev]:hover,
-.testimonialSlider [class*=swiper-button-next]:hover {
+.productSlider [class*=swiper-button-next]:hover {
   background: #286f6c;
   transition: all 0.25s ease-in-out;
 }
@@ -29,9 +27,7 @@
 }
 
 .productSlider [class*=swiper-button-prev]:after,
-.productSlider [class*=swiper-button-next]:after,
-.testimonialSlider [class*=swiper-button-prev]:after,
-.testimonialSlider [class*=swiper-button-next]:after {
+.productSlider [class*=swiper-button-next]:after {
   font-size: 10px;
   font-weight: bold;
   color: white;
@@ -46,5 +42,13 @@
   .productSlider [class*=swiper-button-next],
   .productSlider [class*=swiper-pagination] {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .productSlider [class*=swiper-button-prev],
+  .productSlider [class*=swiper-button-next] {
+    width: 40px;
+    height: 40px;
   }
 }
