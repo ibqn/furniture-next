@@ -9,16 +9,19 @@ const Footer = () => {
     <footer className="section pb-0 bg-primary text-white">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-300 pb-7 lg:pb-14 mb-14">
-          <Link href="#">
+          <Link href="/">
             <a className="mb-6 lg:mb-0">
-              <Logo />
+              <Logo className="h-9" />
             </a>
           </Link>
 
           <div className="flex gap-x-4">
             {social.map(({ icon }, index) => (
-              <div className="h-12 w-12 text-2xl bg-gray-700 hover:bg-accent transition rounded-full flex justify-center items-center">
-                <Link key={index} href="#">
+              <div
+                key={index}
+                className="h-12 w-12 text-2xl bg-gray-700 hover:bg-accent transition rounded-full flex justify-center items-center"
+              >
+                <Link href="#">
                   <a>{icon}</a>
                 </Link>
               </div>
@@ -35,10 +38,10 @@ const Footer = () => {
                 <h2 className="text-lg font-semibold mb-6">{name}</h2>
 
                 <div className="flex flex-col">
-                  {links.map((link) => {
+                  {links.map((link, index) => {
                     const { href, name } = link
                     return (
-                      <Link href={href}>
+                      <Link key={index} href={href}>
                         <a className="mb-6">{name}</a>
                       </Link>
                     )

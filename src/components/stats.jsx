@@ -15,12 +15,7 @@ const Stats = () => {
             key={index}
           >
             <div className="text-2xl font-semibold lg:text-4xl">{value}</div>
-            <div
-              className={clsx(
-                'text-base font-light max-w-[110px] mx-auto',
-                'lg:text-xl'
-              )}
-            >
+            <div className="text-base font-light max-w-[110px] mx-auto lg:text-xl">
               {text}
             </div>
           </div>

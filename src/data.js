@@ -35,19 +35,19 @@ import Avatar4Img from '../public/assets/img/avatar-4.png'
 export const navigation = [
   {
     name: 'home',
-    href: 'home',
+    href: '#',
   },
   {
     name: 'about',
-    href: 'about',
+    href: '#',
   },
   {
     name: 'features',
-    href: 'features',
+    href: '#',
   },
   {
     name: 'contact',
-    href: 'contact',
+    href: '#',
   },
 ]
 
