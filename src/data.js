@@ -347,5 +347,51 @@ export const footer = {
       href: '#',
     },
   ],
-  copyright: 'FurniShop 2022 - All Rights Reserved.',
+  categories: [
+    {
+      name: 'Our Products',
+      links: [
+        { name: 'The Support Suite', href: '#' },
+        { name: 'The Sales Suite', href: '#' },
+        { name: 'Support', href: '#' },
+        { name: 'Guide', href: '#' },
+      ],
+    },
+    {
+      name: 'Top Features',
+      links: [
+        { name: 'Ticketing System', href: '#' },
+        { name: 'Knowledge Base', href: '#' },
+        { name: 'Community Forums', href: '#' },
+        { name: 'Help Desk Software', href: '#' },
+      ],
+    },
+    {
+      name: 'Resources',
+      links: [
+        { name: 'Product Support', href: '#' },
+        { name: 'Request Demo', href: '#' },
+        { name: 'Library', href: '#' },
+        { name: "People's power Blog", href: '#' },
+      ],
+    },
+    {
+      name: 'Company',
+      links: [
+        { name: 'About Us', href: '#' },
+        { name: 'Press', href: '#' },
+        { name: 'Investors', href: '#' },
+        { name: 'Events', href: '#' },
+      ],
+    },
+    {
+      name: 'Favorite Things',
+      links: [
+        { name: 'For Enterprise', href: '#' },
+        { name: 'For Startups', href: '#' },
+        { name: 'For Benchmark', href: '#' },
+        { name: 'For Small Business', href: '#' },
+      ],
+    },
+  ],
 }

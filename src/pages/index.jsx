@@ -1,5 +1,6 @@
 import Features from 'components/features'
 import FeaturesSecond from 'components/features-second'
+import Footer from 'components/footer'
 import Hero from 'components/hero'
 import NewInStore from 'components/new-in-store'
 import Newsletter from 'components/newsletter'
@@ -16,6 +17,7 @@ export default function Home() {
       <Products />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </div>
   )
 }
