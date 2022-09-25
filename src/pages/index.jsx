@@ -18,6 +18,7 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+
       <div className="w-full max-w-[1440px] mx-auto bg-white">
         <Header />
         <Hero />
@@ -28,7 +29,7 @@ export default function Home() {
         <Testimonial />
         <Newsletter />
         <Footer />
-      </div>{' '}
+      </div>
     </>
   )
 }
