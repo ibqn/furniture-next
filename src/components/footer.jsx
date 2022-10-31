@@ -9,10 +9,8 @@ const Footer = () => {
     <footer className="section pb-0 bg-primary text-white">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-300 pb-7 lg:pb-14 mb-14">
-          <Link href="/">
-            <a className="mb-6 lg:mb-0">
-              <Logo className="h-9" />
-            </a>
+          <Link className="mb-6 lg:mb-0" href="/">
+            <Logo className="h-9" />
           </Link>
 
           <div className="flex gap-x-4">
@@ -21,9 +19,7 @@ const Footer = () => {
                 key={index}
                 className="h-12 w-12 text-2xl bg-gray-700 hover:bg-accent transition rounded-full flex justify-center items-center"
               >
-                <Link href="#">
-                  <a>{icon}</a>
-                </Link>
+                <Link href="#">{icon}</Link>
               </div>
             ))}
           </div>
@@ -41,8 +37,8 @@ const Footer = () => {
                   {links.map((link, index) => {
                     const { href, name } = link
                     return (
-                      <Link key={index} href={href}>
-                        <a className="mb-6">{name}</a>
+                      <Link className="mb-6" key={index} href={href}>
+                        {name}
                       </Link>
                     )
                   })}

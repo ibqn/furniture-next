@@ -17,14 +17,14 @@ const NewInStore = () => {
             <div className="hidden lg:flex items-center">
               <Link href="#">
                 <div className="flex flex-row cursor-pointer">
-                  <a
+                  <span
                     className={clsx(
                       'hover:border-b border-primary lg:items-center',
                       'font-medium transition-all'
                     )}
                   >
                     {link}
-                  </a>
+                  </span>
                   <div className="text-3xl">{icon}</div>
                 </div>
               </Link>

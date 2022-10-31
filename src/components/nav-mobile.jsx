@@ -17,13 +17,12 @@ const NavMobile = (props) => {
             const { href, name } = item
             return (
               <li key={index}>
-                <Link href={href}>
-                  <a
-                    onClick={() => props.setMobileNav(false)}
-                    className="hover:border-b hover:border-primary transition-all text-xl font-medium capitalize"
-                  >
-                    {name}
-                  </a>
+                <Link
+                  onClick={() => props.setMobileNav(false)}
+                  className="hover:border-b hover:border-primary transition-all text-xl font-medium capitalize"
+                  href={href}
+                >
+                  {name}
                 </Link>
               </li>
             )

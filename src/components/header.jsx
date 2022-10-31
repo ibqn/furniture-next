@@ -50,9 +50,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <a>
-              <Logo className="h-6 lg:h-8" />
-            </a>
+            <Logo className="h-6 lg:h-8" />
           </Link>
 
           <button
@@ -68,10 +66,11 @@ const Header = () => {
                 const { href, name } = item
                 return (
                   <li key={index}>
-                    <Link href={href}>
-                      <a className="capitalize text-white hover:border-b transition-all">
-                        {name}
-                      </a>
+                    <Link
+                      className="capitalize text-white hover:border-b transition-all"
+                      href={href}
+                    >
+                      {name}
                     </Link>
                   </li>
                 )
